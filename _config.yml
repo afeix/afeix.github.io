@@ -1,7 +1,7 @@
 # Site Settings
 encoding: UTF-8
 exclude: ["*.gem", "*.gemspec", "Gemfile", "Gemfile.lock", "node_modules", "Rakefile", "starter-kit", "vendor"]
-lang: en # Language code as defined in _data/i18n.yml. en, en-gb, en-us, zh, zh-cn, zh-tw etc.
+lang: zh-cn # Language code as defined in _data/i18n.yml. en, en-gb, en-us, zh, zh-cn, zh-tw etc.
 permalink: /blog/:year/:month/:day/:title/
 
 whitelist: [jekyll-feed, jekyll-redirect-from, jekyll-seo-tag, jekyll-sitemap]
@@ -32,22 +32,15 @@ author:
   location:
   email:
   social_links:
-    - name: facebook
-      url:
     - name: github
       url: https://github.com/yizeng/jekyll-theme-simple-texture
     - name: instagram
       url:
-    - name: linkedin
-      url:
     - name: stackoverflow
       url:
-    - name: twitter
-      url: 
-    - name: vk
-      url:
+
 home:
-  section1: <h1>Simple Texutre</h1>
+  section1: <h1>Afei's blog</h1>
   section2: <h2>A gem-based responsive simple texture styled Jekyll theme</h2>
   section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/yizeng/jekyll-theme-simple-texture" title="View on GitHub"></a></div>
 blog:
